@@ -88,8 +88,10 @@ a.footer-social-media {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-}
-.footer__contact:hover,
-.footer__contact:focus {
-  color: var(--hover-color);
+  &:focus {
+    color: var(--hover-color);
+  }
+  &:hover {
+    color: var(--hover-color);
+  }
 }
